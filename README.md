@@ -27,7 +27,6 @@ To run the parallel version, ensure the following:
 - Stable GPU utilization
 - **WSL** (Windows Subsystem for Linux) or any compatible Linux environment
 - NVIDIA HPC SDK installed and configured
-- `stb_image.h` and `stb_image_write.h` from [nothings/stb](https://github.com/nothings/stb)
 
 ---
 
@@ -37,7 +36,8 @@ This project uses custom single-header libraries for image handling:
 
 - `stb_image.h` - Load images into pixel data
 - `stb_image_write.h` - Write grayscale images to output file
-
+- from [nothings/stb](https://github.com/nothings/stb)
+  
 ---
 
 ## 🚀 How to Compile and Run
