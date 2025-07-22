@@ -32,11 +32,10 @@ To run the parallel version, ensure the following:
 
 ## 📦 Dependencies
 
-This project uses custom single-header libraries for image handling:
+This project uses custom single-header libraries for image handling from [nothings/stb](https://github.com/nothings/stb):
 
 - `stb_image.h` - Load images into pixel data
 - `stb_image_write.h` - Write grayscale images to output file
-- from [nothings/stb](https://github.com/nothings/stb)
   
 ---
 
