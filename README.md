@@ -47,7 +47,7 @@ g++ grayscale_normal.cpp -o grayscale_normal
 ./grayscale_normal
 ```
 
-### Sequential Version
+### Parallel Version
 ```bash
 nvc++ -acc -gpu=cc86 -fast --diag_suppress=set_but_not_used grayscale_openacc.cpp -o grayscale_openacc
 ./grayscale_openacc
